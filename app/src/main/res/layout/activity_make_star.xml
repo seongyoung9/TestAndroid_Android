@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.seongyoung9.testandroid.MakeStarActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_leftBottom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="기본 별찍기"
+            android:layout_weight="1"/>
+
+
+        <Button
+            android:id="@+id/btn_leftTop"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="역순 별찍기"
+            android:layout_weight="1"/>
+
+
+        <Button
+            android:id="@+id/btn_rightBottom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="우측 정방향"
+            android:layout_weight="1"/>
+
+
+        <Button
+            android:id="@+id/btn_rightTop"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="우측 역방향"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txt_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="별찍기가 나타납니다."
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
